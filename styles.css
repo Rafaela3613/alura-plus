@@ -31,7 +31,7 @@ body{
 .container__botoes {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Espaço entre os botões */
+    gap: 10px; 
 }
 
 .container__botao,
@@ -43,7 +43,13 @@ body{
     text-decoration: none;
     text-align: center; 
     margin-bottom: 1em;
+    display: block; 
+    margin-top: 10px;
 
+}
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
 }
 
 .container__botao_secundario {
@@ -91,4 +97,27 @@ body{
 }
 .descricao__texto{
     color: var(--cinza-secundario);
+}
+.conteainer__terciario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 10em;
+
+}
+
+.container__descricao {
+    flex: 1;
+    padding: 2em;
+}
+
+.secundario__imagem {
+    max-width: 100%;
+    height: auto;
+    margin-left: auto;
+}
+.container__primario,
+.conteainer__secundario,
+.conteainer__terciario {
+    margin-bottom: 15em; 
 }
