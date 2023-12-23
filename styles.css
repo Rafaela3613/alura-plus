@@ -19,11 +19,27 @@ body{
 }
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
-.container__botao{
+.container__botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaço entre os botões */
+}
+
+.container__botao,
+.container__botao_secundario {
     background-color: var(--botao-azul);
     border-radius: 5px;
     padding: 1em;
     color: var(--branco-principal);
-    display: block;
+}
+
+.container__botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+.container__aviso{
+    
 }
