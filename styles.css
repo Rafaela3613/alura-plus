@@ -66,3 +66,29 @@ body{
 .container__caixa{
     margin: 0 6em;
 }
+.conteainer__secundario {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container__descricao {
+    flex: 1;
+    padding: 20px;
+}
+
+.secundario__imagem {
+    max-width: 80%;
+    height: auto;
+    margin-right: 20px;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
+.descricao__texto{
+    color: var(--cinza-secundario);
+}
